@@ -59,7 +59,7 @@ let userChance = document.getElementById("chance")
 let counter = 0;
 
 button.addEventListener("click", function(){ 
-    var randomNum = Math.random() * 30;
+    var randomNum = Math.random() * 10 *100;
 var ciled = Math.ceil(randomNum);
 console.log( "random number" + ciled);
 let running = true
