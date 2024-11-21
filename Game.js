@@ -38,8 +38,14 @@
 // }else {
 //     console.log("Out of time")
 // }
+function dateTime(){  
+         
+    document.getElementById("time").innerHTML = Date();
+  }
+  dateTime()
 
-
+// let timeDate = document.getElementById("time").value;
+// timeDate.innerHTML = Date();
 let useroutput = document.getElementById("outPut");
 // let pic = document.getElementById("imagePic");
 let button = document.getElementById("btn");
@@ -48,6 +54,7 @@ let userChance = document.getElementById("chance")
 
 // let images= src = "Assets/img1.png"
 //Random Number
+
 
 let counter = 0;
 
@@ -59,8 +66,8 @@ let running = true
     while (counter < 3  && running) { 
     let userInput = document.getElementById("inPut").value;
     if (userInput == ciled ) {
-        useroutput.innerHTML = `Waow!! You win a #1000 for guessing the Right number ${ciled}`;
-        alert(`Woooow! lucky You won #1000 Screenshot this and send it to iMadious on 08122958042`)
+        useroutput.innerHTML = `Waow!! it Emmanuel's Birthday Today! You win 2GB of Data for guessing the Right number ${ciled}`;
+        alert(`Woooow! lucky You won 2GB of Data, Screenshot this and send it to iMadious on 08122958042`)
         location.reload();
         break;
       
@@ -68,7 +75,7 @@ let running = true
     }
     
 else{
-     useroutput.innerHTML = `Oops! try again the correct number was ${ciled} this time`;
+     useroutput.innerHTML = `It Emmanuel's Birthday Today!! But Oops You are unable to gusee the corret number this time, keep trying. The correct number was ${ciled} this time`;
     //  pic.appendChild(images)   
      // console.log(`Oops! try again the correct number is ${ciled} you got more chance`);
         
