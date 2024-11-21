@@ -75,7 +75,7 @@ let running = true
     }
     
 else{
-     useroutput.innerHTML = `It Emmanuel's Birthday Today!! But Oops You are unable to gusee the corret number this time, keep trying. The correct number was ${ciled} this time`;
+     useroutput.innerHTML = `It Emmanuel's Birthday Today!! But Oops You are unable to guess the corret number this time, keep trying. The correct number was ${ciled} this time`;
     //  pic.appendChild(images)   
      // console.log(`Oops! try again the correct number is ${ciled} you got more chance`);
         
